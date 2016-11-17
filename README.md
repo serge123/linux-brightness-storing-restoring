@@ -10,6 +10,6 @@ Simple scripts to store/restore brightness. Example.
         etc/brightness.sh                    - this script needs to be run on autostart as user, it restores brightness
  
     Script etc/backlight.sh must be corrected. There is path /sys/class/backlight/acpi_video0/ which contains "acpi_video0". 
-    It is necessary to correct name "acpi_video0". Name can be found with ls /sys/class/backlight.
+    It is necessary to correct name "acpi_video0". Name can be found with ls /sys/class/backlight
     
     
