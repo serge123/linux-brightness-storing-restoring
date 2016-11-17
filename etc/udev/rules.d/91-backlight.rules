@@ -1,0 +1,2 @@
+# Storing brightness
+ACTION=="change", SUBSYSTEM=="backlight", RUN+="/bin/sh /etc/backlight.sh"
