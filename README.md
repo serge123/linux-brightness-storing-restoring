@@ -1,6 +1,6 @@
 # linux-brightness-storing-restoring
 
-Scripts to store/restore brightness.
+Simple scripts to store/restore brightness. Example.
 
     It might be useful if laptop does not remember brightness, after rebooting it sets brightness to 100% 
 
@@ -9,7 +9,7 @@ Scripts to store/restore brightness.
         etc/backlight                        - actual brightness value
         etc/brightness.sh                    - this script need to be run on autostart as user, it restores brightness
  
- 
-
+    Script etc/backlight.sh must be corrected. There is path /sys/class/backlight/acpi_video0/ which contains "acpi_video0". 
+    It is necessary to correct name "acpi_video0". Name can be found with ls /sys/class/backlight.
     
     
