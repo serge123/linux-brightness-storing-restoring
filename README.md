@@ -11,5 +11,5 @@ Simple scripts to store/restore brightness. Example.
  
     Script etc/backlight.sh must be corrected. There is path /sys/class/backlight/acpi_video0/ which contains "acpi_video0". 
     It is necessary to correct name "acpi_video0". Name can be found with ls /sys/class/backlight
-    
-    
+
+    Install xbacklight package to use scripts.
